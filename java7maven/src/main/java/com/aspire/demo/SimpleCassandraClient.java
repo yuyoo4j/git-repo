@@ -17,6 +17,7 @@ public class SimpleCassandraClient {
 			System.out.printf("Datacenter: %s; Host: %s; Rack: %s\n", host.getDatacenter(), host.getAddress(),
 					host.getRack());
 		}
+		//sss
 	}
 	
 	public Cluster getCluster() {
